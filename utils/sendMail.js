@@ -13,8 +13,8 @@ const sendEmail = async ({ message, subject }) => {
   });
 
   const emailOptions = {
-    from: "carbuyersunion@gmail.com",
-    to: message[14].answer.emailAddress,
+    from: message[14].answer.emailAddress,
+    to: "carbuyersunion@gmail.com",
     subject: subject,
     html: `<!DOCTYPE html>
     <html lang="en">
