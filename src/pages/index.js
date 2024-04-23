@@ -5,9 +5,8 @@ import MainComp from "@/components/MainComp/MainComp";
 export default function index() {
   return (
     <>
-      {/* <MainComp />
-      <Footer /> */}
-      <div>no error</div>
+      <MainComp />
+      <Footer />
     </>
   );
 }

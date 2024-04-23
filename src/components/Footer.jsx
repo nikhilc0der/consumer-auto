@@ -9,8 +9,20 @@ function Footer() {
             <img src="/logo.png" alt="ConsumerAuto" style={{ width: 150 }} />
           </a>
           <p className="mt-3 mb-0">
-            <a href="tel:1-866-520-8160" className="text-reset">
-              1-866-520-8160
+            <a href="tel:+1 (647) 629-7750" className="text-reset">
+              Ryan D. :- +1 (647) 629-7750
+            </a>
+          </p>
+
+          <p className="mt-3 mb-0">
+            <a href="tel:+1 (905) 782-7454" className="text-reset">
+              Amanpreet S. :- +1 (905) 782-7454
+            </a>
+          </p>
+
+          <p className="mt-3 mb-0">
+            <a href="tel:+1 (416) 833-5504" className="text-reset">
+              Jelani D. :- +1 (416) 833-5504
             </a>
           </p>
         </div>
