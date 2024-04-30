@@ -17,7 +17,7 @@ import DateOfBirth from "./DateOfBirth";
 import GetInTouch from "./GetInTouch";
 import DoneComp from "./DoneComp";
 
-function MainComp() {
+function MainComp({ setModal }) {
   const [DataArray, setDataArray] = useState([]);
   function handleClick(id) {
     setDataArray((prev) =>
@@ -86,7 +86,7 @@ function MainComp() {
   };
   const comp16 = {
     index: 15,
-    func: <DoneComp />,
+    func: <DoneComp setModal={setModal} />,
   };
 
   const components = [

@@ -1,10 +1,14 @@
 import React from "react";
 
-function DoneComp() {
+function DoneComp({ setModal }) {
   return (
     <>
-      <h3 className="mb-5">Details Send On Your Mail</h3>
-      <button type="submit" className="btn btn-primary py-3 px-5">
+      <h3 className="mb-5">Details Send</h3>
+      <button
+        type="submit"
+        className="btn btn-primary py-3 px-5"
+        onClick={() => setModal(true)}
+      >
         Submit
       </button>
     </>
