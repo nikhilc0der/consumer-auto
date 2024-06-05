@@ -8,6 +8,11 @@ function Footer() {
           <a href="/">
             <img src="/logo.png" alt="ConsumerAuto" style={{ width: 150 }} />
           </a>
+          <p className="text-light">Sponsor By</p>
+          <div>
+            <img src="/logo-1.png" alt="ConsumerAuto" style={{ width: 150 }} />
+            <img src="/logo-2.png" alt="ConsumerAuto" style={{ width: 150 }} />
+          </div>
           <p className="mt-3 mb-0">
             <a href="tel:+1 (647) 629-7750" className="text-reset">
               Ryan D. :- +1 (647) 629-7750
