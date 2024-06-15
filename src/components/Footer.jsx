@@ -4,12 +4,12 @@ function Footer() {
   return (
     <>
       <div className="bg-dark text-light text-center py-5 border-bottom border-light">
-        <div className="container">
+        <div className="">
           <a href="/">
             <img src="/logo.png" alt="ConsumerAuto" style={{ width: 150 }} />
           </a>
-          <p className="text-light">Sponsor By</p>
-          <div>
+          <div className="w-full bg-white">
+            <p className="text-dark pt-4">Sponsor By</p>
             <img src="/logo-1.png" alt="ConsumerAuto" style={{ width: 150 }} />
             <img src="/logo-2.png" alt="ConsumerAuto" style={{ width: 150 }} />
           </div>
